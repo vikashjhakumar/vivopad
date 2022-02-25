@@ -1,0 +1,9 @@
+.form-control:focus {border-color:#90DA52!important;
+    -webkit-box-shadow: none!important;
+        -moz-box-shadow: none!important;
+        box-shadow: none!important;
+    }
+.btn:hover {
+        color: #90DA52 !important;
+        text-decoration: none;
+        }
