@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+}
+
+#sidebar {
+  /* Strictly Necessary */
+  position: fixed;
+  height: 100%;
+  z-index: 2;
+  margin: 0px;
+  color: white;
+  padding: 15px;
+
+  /* Aesthetics */
+  background: rgb(31, 31, 31);
+}
+
+#rightSideWrapper {
+  /*Strictly Necessary */
+  width: 90%;
+  float: right;
+
+  /*Aesthetics*/
+  background: #faf9fa;
+}
+
+header {
+  /*Strictly Necessary */
+  position: fixed;
+  width: 90%;
+  /*Adjust the hight to your purposes*/
+
+  /*Aesthetics*/
+  color: white;
+  overflow: hidden;
+  background: rgb(248, 247, 247);
+}
+
+.ContentBox {
+  display: flex;
+}
+
+main,
+section,
+footer {
+  /*Aesthetics*/
+
+  border-radius: 7px;
+  /* margin-left: 350px; */
+  padding: 20px;
+}
+
+main {
+  /*Strictly Necessary */
+  order: 1;
+  flex: 0 1 100%;
+}
+
+section {
+  /*Strictly Necessary */
+  order: 2;
+  flex: 0 1 100%;
+}
+.flex-button {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+footer {
+  /*Strictly Necessary */
+  height: 100px;
+  order: 3;
+  flex: 0 1 100%;
+}
+@media only screen and (max-width: 900px) {
+  #sidebar {
+    /*Strictly Necessary */
+    display: none;
+  }
+  #rightSideWrapper {
+    /*Strictly Necessary */
+    width: 100%;
+    float: right;
+
+    /*Aesthetics*/
+    background: rgb(255, 250, 250);
+  }
+  .flex-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
