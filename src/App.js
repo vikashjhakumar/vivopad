@@ -1,15 +1,36 @@
 import logo from './logo.svg';
 import './App.css';
-// import Pools from './component/Pools';
-// import Home from './component/Home';
-import Showpools from './component/Showpools';
+import { Route, Link, Switch, Routes } from "react-router-dom";
+// import Nav from './component/Navbar/Nav';
+  import Pools from './component/Pools';
+ import Home from './component/Home';
+import Pre from './component/Presale/Pre';
+import TokenLocks from './component/TokenLocks/TokenLocks';
+// import Tokenlist from './component/Tokenslist/Tokenlist';
+// import Locktokendetail from './component/Locktocken/Locktokendetail';
+
+
+
+// import Showpools from './component/Showpools';
 
 function App() {
-  return (
-   
-   <>
-     <Showpools />
-   </>
+  return ( 
+    <div className="App">
+      {/* <Nav /> */}
+    {/* <Tokenlist /> */}
+    {/* <Locktokendetail /> */}
+    <TokenLocks />
+      <Routes>
+      
+        {/* <Route exact path="/" element={<Home />} /> */}
+        {/* <Route exact path="/pools" element={<Pools />} />
+        <Route  path="/presale" element={<Pre />} />
+        <Route  path="/" element={<Tokenlist />} /> */}
+        
+        {/* <Route path="/poolscard" element={<PoolCard />} />
+        <Route path="/about" element={<TablePools/>} /> */}
+      </Routes>
+    </div>
   );
 }
 
