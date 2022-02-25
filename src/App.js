@@ -5,7 +5,8 @@ import { Route, Link, Switch, Routes } from "react-router-dom";
   import Pools from './component/Pools';
  import Home from './component/Home';
 import Pre from './component/Presale/Pre';
-import TokenLocks from './component/TokenLocks/TokenLocks';
+import Liquidity from './component/Liquidity/Liquidity';
+
 // import Tokenlist from './component/Tokenslist/Tokenlist';
 // import Locktokendetail from './component/Locktocken/Locktokendetail';
 
@@ -19,7 +20,8 @@ function App() {
       {/* <Nav /> */}
     {/* <Tokenlist /> */}
     {/* <Locktokendetail /> */}
-    <TokenLocks />
+    {/* <TokenLocks /> */}
+    <Liquidity />
       <Routes>
       
         {/* <Route exact path="/" element={<Home />} /> */}
