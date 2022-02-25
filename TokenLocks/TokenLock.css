@@ -7,3 +7,7 @@
         color: #90DA52 !important;
         text-decoration: none;
         }
+        .form-check-input:checked {
+            background-color: #90DA52;
+            border-color: #90DA52;
+        }
