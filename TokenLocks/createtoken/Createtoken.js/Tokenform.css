@@ -1,0 +1,29 @@
+.form-control:focus {border-color:#90DA52!important;
+    -webkit-box-shadow: none!important;
+        -moz-box-shadow: none!important;
+        box-shadow: none!important;
+    }
+.btn:hover {
+        color: #90DA52 !important;
+        text-decoration: none;
+        }
+        .form-check-input:checked {
+            background-color: #90DA52;
+            border-color: #90DA52;
+        }
+        .form-check-input:hover{
+            border-color: #90DA52;
+        }
+        .form-check-input:active{
+            border-color: #90DA52!important;
+        }
+        .form-select:focus {border-color:#90DA52!important; 
+            -webkit-box-shadow: none!important;
+            -moz-box-shadow: none!important;
+            box-shadow: none!important;
+        }
+          .form-select{
+   font-size: 11px;
+   font-weight: 500;
+        }
+       
